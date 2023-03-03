@@ -19,16 +19,14 @@ int main()
     bool flag = true;
     for(int i = 1; i < n; i++)
     {
-        if(a[i] = 00)
+        if(a[i] == 0)
         {
-            flag = false
+            flag = false;
         }
     }
     
     // виведення
-    if(flag)
-        cout << "є" << endl;
-    else
-        cout << "нема" << endl;
+    if(flag) cout << "є" << endl;
+    else cout << "нема" << endl;
 }
 
